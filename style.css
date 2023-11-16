@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nd{
+    text-decoration: none;
+    color: white;
+}
+.nd:hover{
+    text-decoration: none;
+    color: white;
+}
+.ss{
+    height: auto;
+    background-color: white;
+}
+
+body{
+    background-image: url(img1);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.n-b h1{
+    width: 40%;
+    padding-top: 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ .n-b ul{
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    align-items: center;
+    line-height: 1.5;
+
+}
+.dv{
+    background-color: #0779E4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.n-b{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    background-color: #0779E4;
+}
+.n-b ul li a, .n-b ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;color: white;
+}
+.n-b ul li{
+    height: auto;
+    line-height: 75px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.n-b ul li:hover{
+    background-color: #3E9FF9;
+}
+.hero-wrap{
+  
+    width: 100%;
+    height: auto;
+}
+.hero-wrap>div{
+    margin-top: 111px;
+}
+
+.smedia{
+    margin-top: 80px;
+    font-weight: bolder;
+}
+.image{
+    width: 100%;
+    height: 100vh;
+
+
+}
+.about-me{
+    height: auto;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.fa-laptop-code{
+    color: #0779E4;
+}
+.servi{
+    margin-top: 5%;
+}
+.scard{
+    height: auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.scard div{
+    height: 300px;
+    background-color: rgba(255, 228, 196, 0.29);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+}
+.review{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    color: white;
+    margin-top: 10vh;
+    padding: 40px 20px;
+}
+.port{
+    margin-top: 200px;
+    height: auto;
+   
+}
+.whit{
+    background-color: white;
+}
+.blog{
+    margin-top: 200px;
+}
+.pims{
+    display: flex;
+    margin: 20px;
+}
+.pim1{
+    width: 450px;
+    height: 340px;
+}
+.pics1{
+    height: 160vh;
+}
+.pricing{
+    margin-top: 180px;
+}
+.getb{
+    margin-left: 50px;
+    padding: 10px 50px;
+    background-color: transparent;
+    border-color: #0779E4;
+    border-radius: 10px;
+}
+.getb:hover{
+    background-color: #0779E4;
+    color: white;
+}
+.getbb{
+    padding: 10px 50px;
+    background-color: #0779E4;
+    border-radius: 10px;
+    color: white;
+}
+.pais{
+    display: flex;
+    justify-content: center;
+}
+.socia{
+    display: flex;
+    justify-content: space-around;
+}
+.cant{
+    color: white;
+    font-weight: bold;
+}
+.cants{
+    color: white;
+    font-size: medium;
+}
+.getc{
+    padding: 10px 40px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+.getc:hover{
+    background-color: white;
+    color: blue;
+}
+.befo{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.c1{
+    background: url(image1.jpg);
+}
+.c2{
+    background: url(image2.jpg);
+}
+.c3{
+    background: url(image3.jpg);
+}
+.c4{
+    background: url(image4.jpg);
+}
+.c5{
+    background: url(image5.webp);
+}
+.c6{
+    background: url(image6.webp);
+    background-size: cover;
+}
+
+
+
+.c1:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image1.jpg);
+}
+.c2:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image2.jpg);
+}
+.c3:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image3.jpg);
+}
+.c4:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image4.jpg);
+}
+.c5:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image5.webp);
+}
+.c6:hover{
+    background:linear-gradient(#0779e4a8,#0779e4ae), url(image6.webp);
+    background-size: cover;
+}
+
+
+.busi{
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+}
+.busin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slides{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.foco{
+    color: black;
+}
+
+.navlinks  li a{
+    text-decoration: none;
+    color: white;
+}
+
+.mn{
+    border-top: 1px solid #000;
+    width: 100vw;
+    height: 85vh;
+    background-color: #0779E4;
+    display: none;
+    transition: 3s;
+
+}
+
+.activeMenu{
+    display: block;
+    animation: nav 1s 1;
+}
+
+@keyframes nav{
+    from{
+        height: 0;
+    }
+    to{
+        height: 85vh;
+    }
+}
+
+.mn ul{
+    height: 85vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.hamburger{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13px;
+    display: none;
+    cursor: pointer;
+}
+.hamburger p{
+    height: 10%;
+    width: 40%;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+    .pics1{
+        height: 320vh;
+        }
+        body{
+            background-image: url(img1);
+            background-size: 1000px 90vh;
+            background-position: center;
+            background-attachment: fixed;
+    }
+    .getb{
+        margin-left: 150px;
+    }
+    .befo{
+        height: 40vh;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 470px)
+{
+
+    h1{
+        font-size: .5rem;
+    }
+    .getb{
+        margin-left: 20%;
+    }
+}
+
+
+@media only screen and (max-width:750px) {
+    .n-b>ul{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+}
